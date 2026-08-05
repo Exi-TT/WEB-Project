@@ -1,0 +1,213 @@
+:root{
+--bg: #0a0e1a;
+--panel: #111827;
+--cyan: #00c8ff;
+--red: #ff2a2a;
+--text: #e8e8e8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;                    
+}
+.btn {
+    display: inline-block;
+    padding: 12px 35px;
+    border: 2px solid var(--cyan);
+    color: var(--cyan);
+    background: transparent;
+    font-family: Rajdhani, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background-color: var(--cyan);
+    color: var(--bg);
+    box-shadow: 0 0 20px var(--cyan);
+}
+body{
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+nav{
+    background-color: var(--bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: 1px solid var(--cyan);
+}
+nav img{
+    height: 75px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+nav a{
+    color: var(--text);
+    text-decoration: none;
+    font-family: Rajdhani;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+nav a:hover{
+    color: var(--cyan);
+    text-shadow: 0 0 8px var(--cyan);
+}
+nav a.active{
+    color: var(--cyan);
+    border-bottom: 2px solid var(--cyan);
+}
+footer {
+    background-color: var(--panel);
+    color: var(--text);
+    padding: 30px 40px;
+    border-top: 1px solid var(--red);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img {
+    height: 45px;
+    margin-bottom: 5px;
+}
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    font-size: 13px;
+    color: var(--text);
+}
+.footer-middle {
+    font-size: 13px;
+    color: var(--text);
+    text-align: center;
+    opacity: 0.6;
+}
+.footer-right ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.footer-right a {
+    color: var(--cyan);
+    text-decoration: none;
+    font-family: Rajdhani;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.footer-right a:hover {
+    color: var(--red);
+    text-shadow: 0 0 8px var(--red);
+}
+
+
+.hero {
+    background-image: url('images/Jabour_Builds_Background.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(10, 14, 26, 0.6);
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 750px;
+    padding: 20px;
+}
+.hero-content h1 {
+    font-family: Orbitron, sans-serif;
+    font-size: 52px;
+    color: var(--cyan);
+    text-shadow: 0 0 20px var(--cyan);
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+.hero-tagline {
+    font-family: Orbitron, sans-serif;
+    font-size: 18px;
+    color: var(--red);
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.hero-sub {
+    font-size: 16px;
+    color: var(--text);
+    margin-bottom: 35px;
+    line-height: 1.8;
+}
+.services-preview {
+    padding: 80px 40px;
+    background-color: var(--bg);
+}
+.section-title {
+    font-family: Orbitron, sans-serif;
+    color: var(--cyan);
+    text-shadow: 0 0 10px var(--cyan);
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.services-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.card {
+    background-color: var(--panel);
+    border: 1px solid var(--cyan);
+    border-radius: 8px;
+    padding: 30px 25px;
+    width: 230px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px var(--cyan);
+}
+.card-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.card h3 {
+    font-family: Orbitron, sans-serif;
+    font-size: 14px;
+    color: var(--cyan);
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.card p {
+    font-size: 14px;
+    color: var(--text);
+    line-height: 1.7;
+    opacity: 0.85;
+}
+.services-cta {
+    text-align: center;
+    margin-top: 50px;
+}
