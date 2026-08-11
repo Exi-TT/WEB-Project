@@ -16,7 +16,7 @@
     border: 2px solid var(--cyan);
     color: var(--cyan);
     background: transparent;
-    font-family: Rajdhani, sans-serif;
+    font-family: Rajdhani;
     font-size: 16px;
     letter-spacing: 2px;
     text-decoration: none;
@@ -137,7 +137,7 @@ footer img {
     padding: 20px;
 }
 .hero-content h1 {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 52px;
     color: var(--cyan);
     text-shadow: 0 0 20px var(--cyan);
@@ -145,7 +145,7 @@ footer img {
     letter-spacing: 3px;
 }
 .hero-tagline {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 18px;
     color: var(--red);
     letter-spacing: 2px;
@@ -162,7 +162,7 @@ footer img {
     background-color: var(--bg);
 }
 .section-title {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     color: var(--cyan);
     text-shadow: 0 0 10px var(--cyan);
     text-align: center;
@@ -197,7 +197,7 @@ footer img {
     margin-bottom: 15px;
 }
 .card h3 {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 14px;
     color: var(--cyan);
     letter-spacing: 1px;
@@ -210,7 +210,7 @@ footer img {
     line-height: 1.7;
     opacity: 0.85;
 }
-.services-cta {
+.services-btn {
     text-align: center;
     margin-top: 50px;
 }
@@ -247,7 +247,7 @@ footer img {
     margin-bottom: 15px;
 }
 .why-card h3 {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 13px;
     color: var(--red);
     letter-spacing: 1px;
@@ -295,7 +295,7 @@ footer img {
 }
 .testi-card .testi-name {
     color: var(--cyan);
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 13px;
     letter-spacing: 1px;
     margin-bottom: 5px;
@@ -307,131 +307,11 @@ footer img {
 }
 
 
-@media (max-width: 768px) {
-
-   
-    nav {
-        flex-direction: column;
-        padding: 15px 20px;
-        gap: 15px;
-    }
-
-    nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-
-  
-    .hero-content h1 {
-        font-size: 32px;
-    }
-
-    .hero-tagline {
-        font-size: 14px;
-    }
-
-    .hero-sub {
-        font-size: 14px;
-    }
-
-    .services-grid,
-    .why-grid,
-    .testi-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card,
-    .why-card {
-        width: 90%;
-    }
-
-    .testi-card {
-        max-width: 90%;
-    }
-
-    
-    footer {
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .footer-right ul {
-        justify-content: center;
-    }
-    .team-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .team-card {
-        width: 90%;
-    }
-
-    .services-full-grid {
-    flex-direction: column;
-    align-items: center;
-}
-
-.service-item {
-    width: 90%;
-}
-
-.steps-grid {
-    flex-direction: column;
-}
-
-.step-divider {
-    transform: rotate(90deg);
-}
-
-.step {
-    width: 90%;
-}
-.resources-grid,
-.tips-grid {
-    flex-direction: column;
-    align-items: center;
-}
-
-.resource-card,
-.tip-item {
-    width: 90%;
-}
-
-.quiz-box {
-    padding: 25px 15px;
-}
-
-.price-table th,
-.price-table td {
-    padding: 10px 8px;
-    font-size: 12px;
-}
 
 
-.reviews-grid,
-.cases-grid {
-    flex-direction: column;
-    align-items: center;
-}
+/* About */
 
-.review-card,
-.case-card {
-    width: 90%;
-}
 
-.contact-wrapper {
-    flex-direction: column;
-}
-
-.contact-form {
-    padding: 25px 20px;
-    width: 100%;
-}
-}
 
 
 .page-hero {
@@ -442,7 +322,7 @@ footer img {
 }
 
 .page-hero-title {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 42px;
     color: var(--cyan);
     text-shadow: 0 0 15px var(--cyan);
@@ -503,7 +383,7 @@ footer img {
     background-color: var(--panel);
     border: 2px solid var(--cyan);
     color: var(--cyan);
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 28px;
     display: flex;
     align-items: center;
@@ -511,7 +391,7 @@ footer img {
     margin: 0 auto 20px auto;
 }
 .team-card h3 {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 14px;
     color: var(--text);
     letter-spacing: 1px;
@@ -530,6 +410,12 @@ footer img {
     opacity: 0.75;
     line-height: 1.7;
 }
+
+
+
+
+/* Services */
+
 
 
 
@@ -570,7 +456,7 @@ footer img {
 }
 
 .service-item h3 {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 14px;
     color: var(--cyan);
     letter-spacing: 1px;
@@ -586,13 +472,12 @@ footer img {
 
 .service-price {
     color: var(--red);
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 16px;
     opacity: 1 !important;
     letter-spacing: 1px;
 }
 
-/* HOW IT WORKS */
 .how-it-works {
     padding: 80px 40px;
     background-color: var(--panel);
@@ -623,7 +508,7 @@ footer img {
     border-radius: 50%;
     background-color: var(--red);
     color: var(--text);
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 20px;
     display: flex;
     align-items: center;
@@ -632,7 +517,7 @@ footer img {
 }
 
 .step h3 {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 13px;
     color: var(--red);
     text-transform: uppercase;
@@ -653,7 +538,14 @@ footer img {
     font-weight: bold;
 }
 
-/* RESOURCES */
+
+
+
+/* Resources */
+
+
+
+
 .resources-section {
     padding: 80px 40px;
     background-color: var(--bg);
@@ -689,7 +581,7 @@ footer img {
     display: inline-block;
     background-color: var(--red);
     color: var(--text);
-    font-family: Rajdhani, sans-serif;
+    font-family: Rajdhani;
     font-size: 11px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -699,7 +591,7 @@ footer img {
 }
 
 .resource-card h3 {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 13px;
     color: var(--cyan);
     letter-spacing: 1px;
@@ -717,7 +609,7 @@ footer img {
 .resource-link {
     color: var(--cyan);
     text-decoration: none;
-    font-family: Rajdhani, sans-serif;
+    font-family: Rajdhani;
     font-size: 14px;
     letter-spacing: 1px;
     transition: color 0.3s ease;
@@ -727,7 +619,6 @@ footer img {
     color: var(--red);
 }
 
-/* QUICK TIPS */
 .quick-tips {
     padding: 80px 40px;
     background-color: var(--panel);
@@ -754,7 +645,7 @@ footer img {
 }
 
 .tip-number {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 22px;
     color: var(--red);
     opacity: 0.7;
@@ -769,7 +660,13 @@ footer img {
 }
 
 
-/* QUIZ SECTION */
+
+
+/* Tools */
+
+
+
+
 .quiz-section {
     padding: 80px 40px;
     background-color: var(--bg);
@@ -793,7 +690,7 @@ footer img {
 }
 
 .quiz-question {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 16px;
     color: var(--cyan);
     margin-bottom: 25px;
@@ -828,7 +725,6 @@ footer img {
     color: var(--bg);
 }
 
-/* HIDE ALL RESULTS BY DEFAULT */
 .result {
     display: none;
     background-color: var(--bg);
@@ -840,7 +736,7 @@ footer img {
 }
 
 .result h3 {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 15px;
     color: var(--red);
     margin-bottom: 15px;
@@ -855,7 +751,6 @@ footer img {
     margin-bottom: 20px;
 }
 
-/* SHOW RESULT WHEN RADIO IS CHECKED - THE CHECKBOX HACK */
 #slow:checked ~ .quiz-results .result-slow,
 #virus:checked ~ .quiz-results .result-virus,
 #screen:checked ~ .quiz-results .result-screen,
@@ -863,7 +758,6 @@ footer img {
     display: block;
 }
 
-/* PRICE TABLE */
 .price-section {
     padding: 80px 40px;
     background-color: var(--panel);
@@ -873,7 +767,6 @@ footer img {
 .price-table-wrapper {
     max-width: 800px;
     margin: 0 auto;
-    overflow-x: auto;
 }
 
 .price-table {
@@ -883,7 +776,7 @@ footer img {
 }
 
 .price-table th {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 12px;
     color: var(--cyan);
     letter-spacing: 1px;
@@ -905,15 +798,19 @@ footer img {
 }
 
 .price-col {
-    color: var(--red);
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 15px;
     font-weight: bold;
 }
 
 
 
-/* REVIEWS */
+
+/* Testimonials */
+
+
+
+
 .reviews-section {
     padding: 80px 40px;
     background-color: var(--bg);
@@ -961,7 +858,7 @@ footer img {
 }
 
 .review-name {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 12px;
     color: var(--cyan);
     letter-spacing: 1px;
@@ -973,7 +870,6 @@ footer img {
     opacity: 0.8;
 }
 
-/* CASE STUDIES */
 .case-studies {
     padding: 80px 40px;
     background-color: var(--panel);
@@ -1009,7 +905,7 @@ footer img {
     display: inline-block;
     background-color: var(--red);
     color: var(--text);
-    font-family: Rajdhani, sans-serif;
+    font-family: Rajdhani;
     font-size: 11px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -1019,7 +915,7 @@ footer img {
 }
 
 .case-card h3 {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 14px;
     color: var(--red);
     letter-spacing: 1px;
@@ -1033,7 +929,7 @@ footer img {
 }
 
 .case-label {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 11px;
     color: var(--cyan);
     letter-spacing: 1px;
@@ -1049,11 +945,12 @@ footer img {
 }
 
 
-/* CONTACT */
-.contact-section {
-    padding: 80px 40px;
-    background-color: var(--bg);
-}
+
+
+/* Contact */
+
+
+
 
 .contact-wrapper {
     display: flex;
@@ -1064,7 +961,7 @@ footer img {
 }
 
 .contact-heading {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 18px;
     color: var(--cyan);
     letter-spacing: 2px;
@@ -1072,7 +969,6 @@ footer img {
     margin-bottom: 35px;
 }
 
-/* INFO SIDE */
 .contact-info {
     flex: 1;
     display: flex;
@@ -1093,16 +989,17 @@ footer img {
 }
 
 .info-label {
-    font-family: Orbitron, sans-serif;
-    font-size: 10px;
-    color: var(--cyan);
+    font-family: Orbitron;
+    font-size: 10px !important;
+    color: var(--cyan) !important;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 4px;
+    opacity: 1 !important;
+    line-height: normal !important;
 }
 
-.info-item p:last-child,
-.info-item div p:not(.info-label) {
+.info-item p{
     font-size: 14px;
     color: var(--text);
     opacity: 0.85;
@@ -1121,7 +1018,7 @@ footer img {
     border: 1px solid var(--red);
     color: var(--red);
     text-decoration: none;
-    font-family: Rajdhani, sans-serif;
+    font-family: Rajdhani;
     font-size: 13px;
     letter-spacing: 1px;
     border-radius: 4px;
@@ -1134,7 +1031,6 @@ footer img {
     box-shadow: 0 0 15px var(--red);
 }
 
-/* FORM SIDE */
 .contact-form {
     flex: 1.4;
     background-color: var(--panel);
@@ -1151,7 +1047,7 @@ footer img {
 }
 
 .form-group label {
-    font-family: Orbitron, sans-serif;
+    font-family: Orbitron;
     font-size: 11px;
     color: var(--cyan);
     letter-spacing: 1px;
@@ -1165,7 +1061,7 @@ footer img {
     border: 1px solid rgba(0, 200, 255, 0.3);
     border-radius: 5px;
     color: var(--text);
-    font-family: Rajdhani, sans-serif;
+    font-family: Rajdhani;
     font-size: 14px;
     padding: 12px 15px;
     outline: none;
